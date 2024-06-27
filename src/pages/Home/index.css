@@ -1,0 +1,51 @@
+/* src/index.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling the Home page */
+  .home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .home-container ul li {
+    background-color: #e3e3e3;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .home-container {
+      padding: 10px;
+    }
+  
+    .home-container ul li {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
